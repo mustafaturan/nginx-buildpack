@@ -3,9 +3,9 @@ set -e
 INIT_DIR=$(pwd)
 BASE_DIR_PATH="$1"
 
-NGINX_VERSION=1.8.1
-PCRE_VERSION=${PCRE_VERSION-8.38}
-ZLIB_VERSION=${ZLIB_VERSION-1.2.8}
+NGINX_VERSION=1.12.0
+PCRE_VERSION=${PCRE_VERSION-8.40}
+ZLIB_VERSION=${ZLIB_VERSION-1.2.11}
 
 nginx_tarball_url=http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz
 pcre_tarball_url=ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-${PCRE_VERSION}.tar.gz
